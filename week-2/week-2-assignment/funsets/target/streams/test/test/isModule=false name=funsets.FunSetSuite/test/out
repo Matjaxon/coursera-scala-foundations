@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[32mFunSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- contains is implemented[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- union contains all elements of each set[0m[0m
+[0m[[0minfo[0m] [0m[32m- intersect contains only items that appear in both sets[0m[0m
+[0m[[0minfo[0m] [0m[32m- diff gives unique values[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter returns items that are true for given block[0m[0m
+[0m[[0minfo[0m] [0m[31m- forall returns true if all items for the given function return true *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  FunSets.forall(s, ((x: Int) => FunSetSuite.this.convertToEqualizer[Int](x.%(200)).===(0)(scalactic.this.Equality.default[Int]))) was false forall test 2 (FunSetSuite.scala:144)[0m[0m
